@@ -1,0 +1,69 @@
+/* Custom styles for the landing page */
+
+/* Header style */
+header {
+    background-color: #343a40;
+    color: #ffffff;
+}
+
+/* Main section padding */
+main {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/* Product card styles */
+.card {
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* Card title style */
+.card-title {
+    font-weight: bold;
+    color: #007bff;
+}
+
+/* Footer style */
+footer {
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 10px 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .card-title {
+        font-size: 1.2rem;
+    }
+
+    .card-text {
+        font-size: 0.9rem;
+    }
+}
+
+/* Additional styles for extra creativity */
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+    
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
